@@ -1,0 +1,41 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "FastAPI",
+        "version": "0.1.0"
+    },
+    "paths": {
+        "/health-check": {
+            "get": {
+                "summary": "Get Tweets Route Health",
+                "operationId": "get_tweets_route_health_health_check_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/trends": {
+            "get": {
+                "summary": "Get Tweets Route",
+                "operationId": "get_tweets_route_trends_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
