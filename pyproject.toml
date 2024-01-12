@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "mongo-test"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme Carvalho <guilherme.carvalho-ext@viavarejo.com.br>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11.3"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+pymongo = "^4.6.1"
+pandas = "^2.1.4"
+gunicorn = "^21.2.0"
+streamlit = "^1.30.0"
+matplotlib = "^3.8.2"
+
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8 = "^3.9.2"
+black = "^21.8b0"
+isort = "^5.9.3"
+
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

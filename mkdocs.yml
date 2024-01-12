@@ -1,0 +1,23 @@
+site_name: Twitter-mock-api
+
+nav:
+  - "Swagger UI": index.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark Mde
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+
+plugins:
+  - render_swagger
