@@ -24,6 +24,8 @@ isort = "^5.9.3"
 
 [tool.poetry.group.dev.dependencies]
 mkdocs = "^1.5.3"
+mkdocs-render-swagger-plugin = "^0.1.1"
+material = "^0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
